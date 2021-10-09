@@ -1,8 +1,10 @@
 # Space-Alien-Game
 Teach 2D Cartesian coordinates in a fun way. Contains a version that with a GUI and CLI
 
-<img src="https://openclipart.org/image/2400px/svg_to_png/28580/kablam-Number-Animals-1.png" width="200"/><img src="https://user-images.githubusercontent.com/85257356/136675394-1b0460f4-09e7-42b0-8bcb-63973135de03.png" width="200"/>
+<img src="![image](https://user-images.githubusercontent.com/85257356/136675445-d5d993dd-8a5a-46a7-baed-1e718ff2b7d7.png)" width="300"/><img src="https://user-images.githubusercontent.com/85257356/136675394-1b0460f4-09e7-42b0-8bcb-63973135de03.png" width="300"/>
 
+<img src="![image](https://user-images.githubusercontent.com/85257356/136675452-0ce153ae-c7d7-48ae-a341-f304540b7360.png)" width="300"/><img src="![image](https://user-images.githubusercontent.com/85257356/136675467-ca815c8c-ecd1-4e8f-ae82-2a69cbabd3ff.png)" width="300"/>
 
-![image]()![image]()![image](https://user-images.githubusercontent.com/85257356/136675388-7b1caa4a-702d-4982-8a22-a3685d8efdea.png)![image](https://user-images.githubusercontent.com/85257356/136675399-c2566092-3ec9-4771-9709-c8e72345a7ab.png)
+<img src="![image](https://user-images.githubusercontent.com/85257356/136675480-04da9268-1803-4cc0-9a3a-5480505586b8.png)" width="300"/><img src="![image](https://user-images.githubusercontent.com/85257356/136675483-8c71ce7e-4320-4722-b370-35db17477f7d.png)" width="300"/>
+
 
