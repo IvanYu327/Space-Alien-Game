@@ -1,9 +1,4 @@
-
 /*
-==============================================================================================================================================================
- SAG_IvanYu
- Ivan Yu
- December 15, 2019
  Java, JavaSE-1.8
 ==============================================================================================================================================================
 Problem Definition 	� Write a program that randomly generates aliens on a Cartesian plane and alien locations never repeat in a game. The user must enter the
