@@ -36,43 +36,22 @@ the user choose a file and checks if the file is compatible/acceptable and respo
 highscores (if there are any) with the ones on the retrieved text file. If the user wants to save the current scores and a text file has been selected, the program 
 overwrites the file chosen and replaces it with the current standings. If no file has been selected, the program cannot save and displays an error message.
 ==============================================================================================================================================================
-List of Global (public) Variables 
-		Let username represent the user's username - type String
-		Let df represent the subclass that is used to shorten numbers into 2 deciaml places - type DecimalFormat
-		Let alien represent the 2D array used to check if an alien has already apperaed during the current game session - type boolean array[][];
-		Let alienX represent the randomly generated x coordinate of the alien - type int
-		Let alienY represent the randomly generated y coordinate of the alien - type int
-		Let gameTime represent the time left in seconds before the game ends - type double
-		Let catchTime represent the time left before the alien escapes - type double
-		Let totalCatchTime represent the total amount of time the user took to successfully catch aliens - type double
-		Let aliensCaught represent the numbers of aliens the user successfully caught - type int
-		Let aliensSpawned represent the number of aliens that spawned during the game that the user either caught or missed - type int
-		Let userX represent the user's x coordinate answer of where they think the alien is - type String
-		Let userY represent the user's y coordinate answer of where they think the alien is - type String
-		Let points represent the user's score - type double
-		Let hitOrMiss represent the the text that is to be displayed that tells the user if they hit or miss, and their time bonus if applicable - type String
-		Let highscoreArray represent the 2D array used to store the highscores and the usernames of the highscorers - type String array[][]
-		Let usr be 0, used with the highscoreArray to make the indexes easier to read - type final int
-		Let scr be 1, used with the highscoreArray to make the indexes easier to read - type final int
-		Let gridX represent the desired x coordinate location of the center of the grid - type final int
-		Let gridY represent the desired y coordinate location of the center of the grid - type final int
-		Let boxSize represent the desired distance between each gridline in the grid - type final int
-		Let fileName represent the file that is currently selected to retrieve and update highscores to and from - type java.io.File
- */
-import java.awt.*;//import Abstract Window Toolkit
-import java.awt.event.ActionEvent;//imports Abstract Window Toolkit Action Event
-import java.awt.event.ActionListener;//imports Abstract Window Toolkit Action Listener
-import java.io.BufferedReader;//imports BufferedReader
-import java.io.FileOutputStream;//imports FileOutputStream
-import java.io.FileReader;//imports FileReader
-import java.io.PrintWriter;//imports PrintWriter
-import java.text.DecimalFormat;//imports DecimalFormat
-import java.util.Timer;//imports Timer
-import java.util.TimerTask;//imports TimerTask
-import javax.swing.*;//imports Java Swing
 
-@SuppressWarnings("serial")//Suppresses a warning that tells Java not to remind for omitting serialVersionUID field.
-public class SpaceAlienGame extends JFrame{//Declares class SAG_IvanYu and extends it from JFrame.
+ */
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.PrintWriter;
+import java.text.DecimalFormat;
+import java.util.Timer;
+import java.util.TimerTask;
+import javax.swing.*;
+
+@SuppressWarnings("serial")
+public class SpaceAlienGame extends JFrame{
 	public String username="Guest";
 	public DecimalFormat df = new DecimalFormat("##.##");
 	public boolean alien[][]=new boolean [21][21];
